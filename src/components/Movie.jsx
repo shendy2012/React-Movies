@@ -13,9 +13,7 @@ function Movie(props) {
                 {poster === 'N/A' ? (
                     <img
                         className="activator"
-                        src={
-                            'https://via.placeholder.com/300x450?text= ${title}'
-                        }
+                        src={`https://via.placeholder.com/300x450?text= ${title}`}
                     />
                 ) : (
                     <img className="activator" src={poster} />
